@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FMGC | Login</title>
+  <link rel="stylesheet" href="../assets/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <link rel="stylesheet" href="../assets/css/login.css">
+</head>
+<body class="login-page">
+  <header class="site-header"><nav class="navbar navbar-dark container-xl"><a class="navbar-brand brand" href="../../index.html"><span class="brand-mark">F</span> MGC</a><a class="login-link" href="../../index.html">← VOLTAR À LOJA</a></nav></header>
+  <main class="login-main"><section class="login-box" aria-labelledby="tituloLogin"><div class="login-logo"><span class="brand-mark">F</span> MGC</div><h1 id="tituloLogin">BEM-VINDO DE VOLTA</h1><p>Acesse sua conta para explorar a FMGC.</p>
+    <form id="formLogin" novalidate><div class="mb-3"><label for="email" class="form-label">E-mail</label><input class="form-control" type="email" id="email" name="email" autocomplete="email" placeholder="seuemail@exemplo.com" required></div><div class="mb-3"><label for="senha" class="form-label">Senha</label><input class="form-control" type="password" id="senha" name="senha" autocomplete="current-password" minlength="6" placeholder="Sua senha" required></div><button class="primary-button login-submit" type="submit">ENTRAR →</button><p id="feedbackLogin" class="login-feedback" role="status" aria-live="polite"></p></form>
+    <p class="login-notice">Página demonstrativa de front-end. Nenhuma conta é autenticada e nenhuma senha é enviada.</p>
+  </section></main>
+  <script src="../assets/bootstrap/bootstrap.bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="../assets/js/login.js"></script>
+</body>
+</html>
